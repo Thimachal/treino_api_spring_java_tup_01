@@ -1,7 +1,7 @@
 package com.javathima.treinoapi_01.DTO;
-//a pasta pode ser DTO ou modelView do padrão MVC
+//a pasta pode ser DTO ou modelView do padrão MVC, que é um modelo de vizualização do Projeto
 public class Home {
-    public getMenssenger(){
+    public getMessenger(){
         return "Este é um view model com padrão DTO";
     }
 
