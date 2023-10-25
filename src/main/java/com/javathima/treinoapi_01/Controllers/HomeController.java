@@ -19,7 +19,7 @@ public class HomeController {
     }
 
     @GetMapping("/professionals")
-    public List<Professional> index(){
+    public List<Professional> professionals(){
         return ProfessionalService.professionals();
     }
 
