@@ -11,10 +11,11 @@ import java.util.List;
 //@Controller é utilizado para retornar views (normalmente HTML)
 //@RestController é mais simples, usado para retornar dados serializados em formatos como JSON e XML
 @RestController
-public class HomeController {
-    @GetMapping("/")
-    public Home index(){
-        return new Home();
+public class ProfessionalsController {
+
+       @GetMapping("/professionals")
+    public List<Professional> professionals(){
+        return ProfessionalService.professionals();
     }
 
 }
