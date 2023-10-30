@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProfessionalService {
+    private ProfessionalService(){
+
+    }
 
     public static List<Professional> professionals(){
         var lista = new ArrayList<Professional>();
