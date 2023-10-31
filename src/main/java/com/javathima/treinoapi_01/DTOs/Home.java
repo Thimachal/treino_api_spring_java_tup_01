@@ -1,4 +1,4 @@
-package com.javathima.treinoapi_01.DTO;
+package com.javathima.treinoapi_01.DTOs;
 //a pasta pode ser DTO ou modelView do padrão MVC, que é um modelo de vizualização do Projeto
 public class Home {
     public String getMessenger(){
