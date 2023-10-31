@@ -13,9 +13,6 @@ public class ProfessionalService {
     public static List<Professional> professionals(){
         var lista = new ArrayList<Professional>();
 
-        lista.add(new Professional(1,"thimachal"));
-        lista.add(new Professional(2,"Isa"));
-
         return lista;
     }
 }
