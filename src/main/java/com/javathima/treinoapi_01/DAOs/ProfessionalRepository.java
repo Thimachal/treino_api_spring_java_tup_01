@@ -1,4 +1,4 @@
-package com.javathima.treinoapi_01.DAO;
+package com.javathima.treinoapi_01.DAOs;
 
 import com.javathima.treinoapi_01.Models.Professional;
 import org.springframework.data.repository.CrudRepository;
