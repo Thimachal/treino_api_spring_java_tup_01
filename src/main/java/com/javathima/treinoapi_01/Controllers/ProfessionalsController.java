@@ -1,6 +1,5 @@
 package com.javathima.treinoapi_01.Controllers;
 
-import com.javathima.treinoapi_01.DTO.Home;
 import com.javathima.treinoapi_01.Models.Professional;
 import com.javathima.treinoapi_01.Services.ProfessionalService;
 import org.springframework.web.bind.annotation.GetMapping;
